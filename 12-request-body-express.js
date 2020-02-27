@@ -9,9 +9,9 @@ APP.use(bodyParser.json());
 
 const SERVER = http.createServer(APP);
 
-APP.post('/', (req, resp) => {
+APP.get('/', (req, resp) => {
   console.log(req.body.category);
   resp.send('hola');
 });
 
-SERVER.listen(4000);
+SERVER.listen(3000);
