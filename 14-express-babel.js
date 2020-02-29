@@ -9,7 +9,14 @@ const APP = express();
 const SERVER = http.createServer(APP);
 
 APP.get('/', (req, res) => {
-  res.send('end request on get');
+  const total = 10;
+  let result = '<ul>';
+  for (let i = 1; i <= total; i++) {
+    result += '<li>' + i + '</li>'
+  }
+  result += '</ul>';
+
+  res.send(result);
 });
 
 APP.post(['/', '/users'], (req, res) => {
