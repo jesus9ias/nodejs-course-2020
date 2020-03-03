@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "npm run dev:13 && npm run dev:14",
     "dev:14": "nodemon --exec babel-node 14-express-babel.js",
-    "dev:13": "nodemon --exec babel-node 13-express-headers.js"
+    "dev:13": "nodemon --exec babel-node 13-express-headers.js",
+    "dev:15": "nodemon --exec babel-node 15-responses.js"
   },
   "author": "",
   "license": "ISC",

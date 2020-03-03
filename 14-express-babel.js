@@ -24,5 +24,5 @@ APP.post(['/', '/users'], (req, res) => {
   res.send('end request on post');
 });
 
-SERVER.listen(process.env.PORT);
+SERVER.listen(7000);
 
