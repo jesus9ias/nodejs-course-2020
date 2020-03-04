@@ -7,7 +7,8 @@
     "dev": "npm run dev:13 && npm run dev:14",
     "dev:14": "nodemon --exec babel-node 14-express-babel.js",
     "dev:13": "nodemon --exec babel-node 13-express-headers.js",
-    "dev:15": "nodemon --exec babel-node 15-responses.js"
+    "dev:15": "nodemon --exec babel-node 15-responses.js",
+    "dev:16": "nodemon --exec babel-node 16-render.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,7 +17,8 @@
     "body-parser": "^1.19.0",
     "core-js": "^3.6.4",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
   },
   "devDependencies": {
     "@babel/node": "^7.8.4",
